@@ -1,23 +1,15 @@
-import { useEffect, useState } from "react";
-import BlogCard from "../components/BlogCard";
-
 export default function BlogList() {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts")
-      .then((res) => res.json())
-      .then((data) => setPosts(data));
-  }, []);
+  // TODO: Implement blog list page
+  // - Fetch posts from https://jsonplaceholder.typicode.com/posts
+  // - Display posts as cards using BlogCard component
+  // - Show first 100 characters of body
+  // - Add "Read More" link to navigate to blog details
 
   return (
     <div className="blog-list">
       <h2>All Blogs</h2>
-      <div className="grid">
-        {posts.map((post) => (
-          <BlogCard key={post.id} post={post} />
-        ))}
-      </div>
+      <p>Start implementing the blog list here...</p>
+      {/* Your implementation here */}
     </div>
   );
 }

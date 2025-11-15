@@ -1,55 +1,13 @@
+/* Basic reset - customize as needed */
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #f6f6f6;
 }
 
-.navbar {
-  padding: 15px 20px;
-  background: #222;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-links a {
-  margin-left: 15px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.blog-list {
-  padding: 20px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
-}
-
-.blog-card {
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-.read-more {
-  color: blue;
-  text-decoration: underline;
-}
-
-.create-blog form,
-.blog-details {
-  padding: 20px;
-  max-width: 600px;
-}
-
-textarea {
-  min-height: 120px;
-}
-
-button {
-  margin-top: 10px;
-  padding: 10px 15px;
-}
+/* TODO: Add your styles here */
+/* Requirements:
+   - Grid layout on desktop (2-3 columns)
+   - Single column on mobile
+   - Responsive navbar
+   - Proper spacing and font sizes
+*/
